@@ -29,4 +29,9 @@ public class Dolphin extends Aquatic {
     public String toString() {
         return super.toString() + ", swimmingSpeed:" + swimmingSpeed;
     }
+
+    @Override
+    public void eatMeat(Food meat) {
+        System.out.println("I m eating "+ meat.toString().toLowerCase());
+    }
 }

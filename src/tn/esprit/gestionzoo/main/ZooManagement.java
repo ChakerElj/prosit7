@@ -118,7 +118,11 @@ public class ZooManagement {
         myZoo.displayNumberOfAquaticsByType();
 
         System.out.println(myZoo.maxPenguinSwimmingDepth());
-
+        // Prosit 8 test
+        Aquatic dolphin = new Dolphin();
+        dolphin.eatMeat(Food.MEAT);
+        Terrestrial cat = new Terrestrial();
+        cat.eatPlantAndMeet(Food.BOTH);
     }
 
 }
